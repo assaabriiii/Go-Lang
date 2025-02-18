@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather in {{ .city }}</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .weather {
+            max-width: 500px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .weather h1 {
+            margin: 0;
+        }
+        .weather p {
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <div class="weather">
+        <h1>Weather in {{ .city }}</h1>
+        <p>Temperature: {{ .temperature }}°C</p>
+        <p>Condition: {{ .description }}</p>
+        <a href="/">Search Again</a>
+    </div>
+</body>
+</html>
