@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .post {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .post h2 {
+            margin: 0;
+        }
+        .post a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+    <h1>Blog Posts</h1>
+    <a href="/add">Add New Post</a>
+    {{ range .posts }}
+    <div class="post">
+        <h2><a href="/post/{{ .ID }}">{{ .Title }}</a></h2>
+    </div>
+    {{ end }}
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .post.Title }}</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .post {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .post h1 {
+            margin: 0;
+        }
+        .post p {
+            white-space: pre-line;
+        }
+    </style>
+</head>
+<body>
+    <div class="post">
+        <h1>{{ .post.Title }}</h1>
+        <p>{{ .post.Body }}</p>
+        <a href="/">Back to Home</a>
+    </div>
+</body>
+</html>
