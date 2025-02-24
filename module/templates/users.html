@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User List</title>
+</head>
+<body>
+    <h1>Users and Their Products</h1>
+    <ul>
+        {{ range . }}
+        <li>
+            <strong>{{ .Name }} ({{ .Email }})</strong>
+            <ul>
+                {{ range .Products }}
+                <li>{{ .Name }} - ${{ .Price }}</li>
+                {{ else }}
+                <li>No products found.</li>
+                {{ end }}
+            </ul>
+        </li>
+        {{ end }}
+    </ul>
+</body>
+</html>
