@@ -7,4 +7,5 @@
 - [Task app](https://github.com/assaabriiii/Go-Lang/tree/main/Task%20app)
 - [Upload app](https://github.com/assaabriiii/Go-Lang/tree/main/Upload%20app)
 - [Contact app](https://github.com/assaabriiii/Go-Lang/tree/main/Contact%20app)
+- [splitting functionality app](https://github.com/assaabriiii/Go-Lang/tree/main/module)
 - [GET and POST requests](https://github.com/assaabriiii/Go-Lang/tree/main/Test%20app)
