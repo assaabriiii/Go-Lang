@@ -1,5 +1,9 @@
 # Projects:
 
+
+i'm practicing Go lang and save my projects here, right now trying to find the best practices for modularization in gin-framewrok 
+
+
 - [TODO app](https://github.com/assaabriiii/Go-Lang/tree/main/Todo%20app)
 - [Blog app](https://github.com/assaabriiii/Go-Lang/tree/main/Blog%20app)
 - [Weather app](https://github.com/assaabriiii/Go-Lang/tree/main/Weather%20app)
